@@ -1,0 +1,103 @@
+
+body {
+    background: url("bground4.jpg");
+    height: 100vh;
+    /*   background-color: #ECECEC;*/
+}
+
+.mainBody {
+    background-color: ghostwhite;
+    position: relative;
+    height: 100vh;
+    margin: 1% 20% 1% 20%;
+    box-shadow: 0 0 5px 1px #FFFFFF;
+}
+
+.tBanner {
+    background: url("codebanner.jpeg")no-repeat center;
+    position: absolute;
+    margin-top: 0.3%;
+    padding-left: 2%;
+    width: 98%;
+    height: 40%;   
+}
+
+.bP {
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    bottom: -40%;
+    left: 20%;
+    font-family: Constantia;
+}
+
+
+.titleName {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 5%;
+    left: 23%;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 250%;
+    font-family: Constantia;
+}
+
+.titleDisc {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 40%;
+    left: 13%;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 250%;
+    font-family: Constantia;
+}
+
+
+.webButtc {
+    background: url("webButt.jpg")no-repeat center;
+    position: absolute;
+    height: 219px;
+    width: 342px;
+    border-radius: 25px;
+    left: 1.5%;
+    top: 50%;
+}
+
+.aButtc {
+    background: url("aButt.jpg")no-repeat center;
+    position: absolute;
+    height: 219px;
+    width: 342px;
+    border-radius: 25px;
+    left: 34.5%;
+    top: 60%;
+}
+
+.proButtc {
+    background: url("proButt.jpg")no-repeat center;
+    position: absolute;
+    height: 219px;
+    width: 342px;
+    border-radius: 25px;
+    left: 68%;
+    top: 50%;
+}
+
+.buttStyle {
+    height: 50px;
+    width: 200px;
+    background: #f41f1f;
+    border: 3px solid white;
+    border-radius: 40px;
+    position: absolute;
+    left: 21%;
+    top: 40%;
+}
+
+.buttStyle:hover {
+        background: #f20e0e;
+    }
